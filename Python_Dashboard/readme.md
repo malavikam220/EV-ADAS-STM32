@@ -79,27 +79,6 @@ The dashboard updates continuously to display:
 
 ---
 
-#  Project Structure
-
-```
-Python_Dashboard/
-│
-├── ev_dashboard.py
-├── requirements.txt
-├── README.md
-├── assets/
-│   ├── dashboard.png
-│   ├── speed_gauge.png
-│   └── alerts.png
-│
-└── screenshots/
-    ├── dashboard_running.png
-    ├── collision_warning.png
-    └── blind_spot_alert.png
-```
-
----
-
 #  Installation
 
 Navigate to the dashboard directory.
@@ -145,47 +124,6 @@ The dashboard provides live monitoring of:
 
 ---
 
-#  Screenshots
-
-Store the screenshots in the following structure:
-
-```
-screenshots/
-│
-├── dashboard_running.png
-├── collision_warning.png
-├── blind_spot_alert.png
-└── system_status.png
-```
-
-Then display them in the README like this:
-
-```markdown
-## Dashboard
-
-![Dashboard](screenshots/dashboard_running.png)
-
----
-
-## Collision Warning
-
-![Collision Warning](screenshots/collision_warning.png)
-
----
-
-## Blind Spot Detection
-
-![Blind Spot Detection](screenshots/blind_spot_alert.png)
-
----
-
-## System Status
-
-![System Status](screenshots/system_status.png)
-```
-
----
-
 #  Data Flow
 
 ```
@@ -227,10 +165,6 @@ The required libraries include:
 
 Potential enhancements include:
 
-- Modern Dark Theme UI
-- Circular Speedometer Gauge
-- Battery Percentage Gauge
-- Live Graph Plotting
 - CAN Bus Support
 - Data Logging to CSV
 - Cloud Connectivity
