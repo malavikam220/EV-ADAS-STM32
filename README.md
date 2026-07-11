@@ -6,26 +6,26 @@ The system is integrated with **PICSimLab** for hardware simulation and a **Pyth
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 This project demonstrates the implementation of an Electric Vehicle ADAS system capable of monitoring vehicle status, detecting nearby obstacles, estimating collision risks, and managing vehicle safety.
 
 The system provides:
 
-- 🚘 Real-time vehicle dynamics simulation
-- ⚠️ Collision warning system
-- 👀 Blind spot detection
-- 🔋 Battery monitoring
-- 🌡️ Motor temperature monitoring
-- 📊 Live Python dashboard
-- 🖥️ UART command interface
-- 🔧 Fault management system
+-  Real-time vehicle dynamics simulation
+-  Collision warning system
+-  Blind spot detection
+-  Battery monitoring
+-  Motor temperature monitoring
+-  Live Python dashboard
+-  UART command interface
+-  Fault management system
 
 ---
 
-# ✨ Features
+# Features
 
-## 🚘 Electric Vehicle Dynamics
+## Electric Vehicle Dynamics
 
 - Accelerator Pedal Input
 - Brake Pedal Input
@@ -38,7 +38,7 @@ The system provides:
 
 ---
 
-## 🛡️ ADAS Features
+##  ADAS Features
 
 ### Forward Collision Warning (FCW)
 
@@ -55,7 +55,7 @@ The system provides:
 
 ---
 
-## ⚠️ Fault Management
+##  Fault Management
 
 The system continuously monitors for critical faults such as:
 
@@ -67,7 +67,7 @@ When a critical fault is detected, the vehicle automatically enters a **Safe Sta
 
 ---
 
-## 🖥️ User Interface
+##  User Interface
 
 - UART Command Shell
 - PICSimLab Virtual Terminal
@@ -75,7 +75,7 @@ When a critical fault is detected, the vehicle automatically enters a **Safe Sta
 
 ---
 
-## 🚀 Drive Modes
+##  Drive Modes
 
 Three drive modes are supported:
 
@@ -87,7 +87,7 @@ Three drive modes are supported:
 
 ---
 
-# 🛠️ Hardware Used
+#  Hardware Used
 
 ## Microcontroller
 
@@ -120,7 +120,7 @@ Three drive modes are supported:
 
 ---
 
-# 💻 Software Used
+# Software Used
 
 - STM32CubeIDE
 - STM32 HAL Library
@@ -132,7 +132,7 @@ Three drive modes are supported:
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 EV_ADAS_System/
@@ -152,9 +152,9 @@ EV_ADAS_System/
 
 ---
 
-# ▶️ Getting Started
+#  Getting Started
 
-## 1️⃣ STM32 Firmware
+## 1️. STM32 Firmware
 
 Open the project in **STM32CubeIDE**.
 
@@ -164,7 +164,7 @@ Flash it to the STM32 board or run it using **PICSimLab**.
 
 ---
 
-## 2️⃣ Python Dashboard
+## 2️. Python Dashboard
 
 Navigate to the dashboard folder.
 
@@ -186,7 +186,7 @@ python ev_dashboard.py
 
 ---
 
-# 💬 UART Commands
+# UART Commands
 
 | Command | Description |
 |----------|-------------|
@@ -208,7 +208,7 @@ python ev_dashboard.py
 
 ---
 
-# 📸 Screenshots
+#  Screenshots
 
 Place the following images inside the **Images/** folder.
 
@@ -263,7 +263,7 @@ Then display them in the README using:
 
 ---
 
-# 🔄 System Workflow
+#  System Workflow
 
 ```
 Driver Inputs
@@ -288,7 +288,7 @@ Real-Time Monitoring
 
 ---
 
-# 📈 Future Scope
+#  Future Scope
 
 The project can be extended with:
 
@@ -305,7 +305,7 @@ The project can be extended with:
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
 **Malavika**
 
@@ -315,7 +315,7 @@ TKM College of Engineering
 
 ---
 
-# 📄 License
+#  License
 
 This project is intended for **educational and research purposes**.
 
@@ -323,7 +323,7 @@ Feel free to modify and extend it for learning and academic use.
 
 ---
 
-# ⭐ Support
+#  Support
 
 If you found this project useful:
 
