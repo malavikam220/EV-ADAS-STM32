@@ -1,4 +1,4 @@
-# 🚗 EV ADAS System using STM32
+# EV ADAS System using STM32
 
 An **Advanced Driver Assistance System (ADAS)** for an **Electric Vehicle (EV)** implemented using the **STM32F103C8T6 (Blue Pill)** microcontroller. The project simulates essential ADAS features such as **Forward Collision Warning (FCW)**, **Blind Spot Detection (BSD)**, **Fault Monitoring**, **Drive Mode Management**, and **Real-Time Vehicle Monitoring**.
 
